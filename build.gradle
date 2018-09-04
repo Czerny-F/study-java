@@ -1,0 +1,15 @@
+task helloWorld {
+  description = 'Print Hello world.'
+
+  doLast {
+    println "Hello, world!"
+  }
+}
+
+task altHelloWorld << {
+  println "Hello, alt-world!"
+}
+
+task confHelloWorld {
+  println "Hello, conf-world!"
+}
