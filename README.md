@@ -1,4 +1,4 @@
-# study.java
+# study-java
 
 ## Maven
 
